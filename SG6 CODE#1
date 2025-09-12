@@ -1,0 +1,9 @@
+
+x = float(input("Enter your first number: "))
+y = float(input("Enter your second number: "))
+z = float(input("Enter your third number: "))
+
+sum = x + y + z
+round = round(sum, 2)
+
+print("The total sum is ", round)
