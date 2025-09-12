@@ -1,0 +1,16 @@
+x1 = int(input("Enter your first point (X): "))
+y1 = int(input("Enter your first point (Y): "))
+x2 = int(input("Enter your second point (X): "))
+y2 = int(input("Enter your second point (Y): "))
+
+import math
+
+x = (x2 - x1) ** 2
+y = (y2 - y1) ** 2
+
+distance = math.sqrt(x + y)
+
+round = round(distance, 2)
+
+print("The distance between the two points is", round)
+
